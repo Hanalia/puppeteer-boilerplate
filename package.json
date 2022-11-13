@@ -1,0 +1,16 @@
+{
+  "name": "scrape-rain-cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "build": "pkg src/index.js --public --targets win-x64 --out-path dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "puppeteer": "^19.2.2"
+  }
+}
